@@ -1,5 +1,6 @@
 import './App.css';
-import {NavBar} from './components/navbar/index.jsx';
+import {NavBar} from './components/navbarComponent/index.jsx';
+import {ItemListContainer} from './components/itemListContainerComponent/index.jsx';
 function App() {
   return (
     <div className="App">
@@ -7,7 +8,7 @@ function App() {
         <img src="./images/logoNavBar.jpg"  height="150" width="150" alt="logo" />
       </header>
       <NavBar/>
-      <h2>Proximamente!!</h2>
+      <ItemListContainer message="Proximamente Productos"/>
     </div>
   );
 }
