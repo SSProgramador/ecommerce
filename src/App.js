@@ -1,6 +1,7 @@
 import './App.css';
 import {NavBar} from './components/navbarComponent/index.jsx';
 import {ItemListContainer} from './components/itemListContainerComponent/index.jsx';
+
 function App() {
   return (
     <div className="App">
